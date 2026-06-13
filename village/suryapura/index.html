@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="सूर्यपुरा ग्राम विकास पोर्टल — गाँव का विकास, शिक्षा, किसान, सड़क, पंचायत और डिजिटल पहचान।" />
+  <title>सूर्यपुरा ग्राम विकास पोर्टल</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TRICOLOR TOP -->
+  <div class="tricolor-bar">
+    <span></span><span></span><span></span>
+  </div>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <header class="header" id="header">
+    <div class="container hdr-flex">
+      <a class="brand" href="#" id="brandLogo">
+        <div class="brand-sun">
+          <svg width="34" height="34" viewBox="0 0 38 38" fill="none">
+            <circle cx="19" cy="19" r="8" fill="#FF6F00"/>
+            <g stroke="#FF6F00" stroke-width="2" stroke-linecap="round">
+              <line x1="19" y1="1"  x2="19" y2="8"/>
+              <line x1="19" y1="30" x2="19" y2="37"/>
+              <line x1="1"  y1="19" x2="8"  y2="19"/>
+              <line x1="30" y1="19" x2="37" y2="19"/>
+              <line x1="5.9" y1="5.9" x2="10.8" y2="10.8"/>
+              <line x1="27.2" y1="27.2" x2="32.1" y2="32.1"/>
+              <line x1="32.1" y1="5.9" x2="27.2" y2="10.8"/>
+              <line x1="10.8" y1="27.2" x2="5.9" y2="32.1"/>
+            </g>
+          </svg>
+        </div>
+        <div>
+          <div class="brand-name">सूर्यपुरा</div>
+          <div class="brand-tag">ग्राम विकास पोर्टल</div>
+        </div>
+      </a>
+
+      <nav class="nav" id="mainNav">
+        <a href="#kisan"   class="nl" id="nl1">किसान</a>
+        <a href="#pillars" class="nl" id="nl2">विकास</a>
+        <a href="#impact"  class="nl" id="nl3">उपलब्धि</a>
+        <a href="#stories" class="nl" id="nl4">कहानियाँ</a>
+        <a href="#social"  class="nl" id="nl5">सोशल</a>
+      </nav>
+
+      <a href="#join" class="btn-nav-cta" id="navCta">जुड़ें →</a>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero" id="hero">
+    <!-- BG image layer -->
+    <div class="hero-img-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <span class="pulse-dot"></span>
+          जिला: सूर्यपुरा · ब्लॉक: आनंदनगर · उत्तर प्रदेश
+        </div>
+        <h1 class="hero-title">
+          एक गाँव,<br/>एक <em>सपना,</em><br/>एक <strong>नेता।</strong>
+        </h1>
+        <p class="hero-desc">
+          सूर्यपुरा ग्राम विकास पोर्टल — जहाँ हर किसान की आवाज़ सुनी जाती है, हर बच्चे को शिक्षा मिलती है, और हर गली में रोशनी पहुँचती है।
+        </p>
+        <div class="hero-ctas">
+          <a href="#pillars" class="btn-solid" id="heroCta1">विकास योजनाएं देखें</a>
+          <a href="#kisan"   class="btn-outline-light" id="heroCta2">🌾 किसान सेवाएं</a>
+        </div>
+        <div class="hero-stats-row">
+          <div class="hstat">
+            <div class="hstat-n" data-target="42">0</div>
+            <div class="hstat-l">गाँव</div>
+          </div>
+          <div class="hstat-sep"></div>
+          <div class="hstat">
+            <div class="hstat-n" data-target="850">0</div>
+            <div class="hstat-l">किसान</div>
+          </div>
+          <div class="hstat-sep"></div>
+          <div class="hstat">
+            <div class="hstat-n" data-target="1200">0</div>
+            <div class="hstat-l">छात्र</div>
+          </div>
+          <div class="hstat-sep"></div>
+          <div class="hstat">
+            <div class="hstat-n" data-target="12000">0</div>
+            <div class="hstat-l">नागरिक</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ambassador profile card -->
+      <div class="amb-card" id="ambCard">
+        <div class="amb-card-img">
+          <svg width="90" height="90" viewBox="0 0 90 90" fill="none">
+            <circle cx="45" cy="45" r="45" fill="#E8F5E9"/>
+            <circle cx="45" cy="32" r="16" fill="#1B5E20" opacity="0.85"/>
+            <ellipse cx="45" cy="75" rx="26" ry="18" fill="#1B5E20" opacity="0.65"/>
+            <path d="M29 55 Q45 68 61 55" stroke="#FF6F00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          </svg>
+          <div class="amb-star">⭐</div>
+        </div>
+        <div class="amb-info">
+          <div class="amb-name">राम प्रसाद यादव</div>
+          <div class="amb-role">विकास दूत · सूर्यपुरा पंचायत</div>
+          <div class="amb-since">सेवा में: 2019 से</div>
+        </div>
+        <blockquote class="amb-quote">
+          "हर घर में बिजली, हर खेत में पानी — यही मेरा संकल्प है।"
+        </blockquote>
+        <div class="amb-chips">
+          <span>🎓 शिक्षा</span>
+          <span>🌾 किसान</span>
+          <span>🛣️ सड़क</span>
+          <span>📱 डिजिटल</span>
+        </div>
+        <!-- Floating badges -->
+        <div class="fl-badge fb1">✅ 42 गाँव जोड़े</div>
+        <div class="fl-badge fb2">📶 WiFi लगाए</div>
+        <div class="fl-badge fb3">🏆 सर्वश्रेष्ठ 2024</div>
+      </div>
+    </div>
+
+    <div class="scroll-ind" id="scrollInd">
+      <div class="scroll-line"></div>
+      <span>नीचे देखें</span>
+    </div>
+  </section>
+
+  <!-- ░░ KISAN SECTION (with real image) ░░ -->
+  <section class="kisan-section section" id="kisan">
+    <div class="container">
+      <div class="kisan-grid">
+        <!-- Image side -->
+        <div class="kisan-img-wrap reveal">
+          <img src="kisan.png" alt="भारतीय किसान — सूर्यपुरा" class="kisan-img" id="kisanPhoto" />
+          <div class="kisan-img-badge">
+            <span class="kib-icon">🌾</span>
+            <div>
+              <div class="kib-title">850+ किसान</div>
+              <div class="kib-sub">लाभान्वित हुए</div>
+            </div>
+          </div>
+          <div class="kisan-img-badge kib2">
+            <span class="kib-icon">💧</span>
+            <div>
+              <div class="kib-title">ड्रिप सिंचाई</div>
+              <div class="kib-sub">400 एकड़ में</div>
+            </div>
+          </div>
+          <div class="kisan-quote-strip">
+            <span>"</span>अन्नदाता सुखी भव<span>"</span>
+          </div>
+        </div>
+
+        <!-- Text side -->
+        <div class="kisan-text reveal">
+          <div class="section-tag">किसान सेवा</div>
+          <h2 class="section-h2">
+            जो जमीन से जुड़ा है,<br/>वही <em>असली नायक है।</em>
+          </h2>
+          <p class="body-p">
+            सूर्यपुरा के हर किसान की उन्नति हमारा संकल्प है। सिंचाई से लेकर मंडी तक — हम हर कदम पर साथ हैं।
+          </p>
+
+          <div class="kisan-features">
+            <div class="kf-item">
+              <div class="kf-icon">💧</div>
+              <div>
+                <div class="kf-title">ड्रिप सिंचाई योजना</div>
+                <div class="kf-sub">400 एकड़ में आधुनिक सिंचाई — फसल दोगुनी, पानी आधा</div>
+              </div>
+            </div>
+            <div class="kf-item">
+              <div class="kf-icon">🌱</div>
+              <div>
+                <div class="kf-title">उन्नत बीज वितरण</div>
+                <div class="kf-sub">सरकारी रेट पर प्रमाणित बीज — सीधे किसान के दरवाजे</div>
+              </div>
+            </div>
+            <div class="kf-item">
+              <div class="kf-icon">📊</div>
+              <div>
+                <div class="kf-title">MSP पर सीधी खरीद</div>
+                <div class="kf-sub">बिचौलिए नहीं — सरकारी मूल्य पर सीधा भुगतान</div>
+              </div>
+            </div>
+            <div class="kf-item">
+              <div class="kf-icon">📱</div>
+              <div>
+                <div class="kf-title">किसान पाठशाला</div>
+                <div class="kf-sub">आधुनिक खेती की ट्रेनिंग — हर महीने निःशुल्क</div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#join" class="btn-green-solid" id="kisanJoinBtn">
+            किसान सेवा से जुड़ें →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PILLARS with IMAGES ░░ -->
+  <section class="pillars section" id="pillars">
+    <div class="container">
+      <div class="section-tag center">विकास के क्षेत्र</div>
+      <h2 class="section-h2 center">पाँच <em>स्तंभ,</em> एक लक्ष्य</h2>
+      <p class="section-sub center">हर क्षेत्र में काम — हर इंसान के लिए बेहतर कल।</p>
+
+      <div class="pillars-grid">
+
+        <div class="pillar-card reveal" id="pc1">
+          <div class="pillar-img-wrap">
+            <img src="school.png" alt="शिक्षा" class="pillar-img" />
+            <div class="pillar-img-overlay">
+              <span class="pi-emoji">🎓</span>
+            </div>
+          </div>
+          <div class="pillar-body">
+            <div class="p-num">01</div>
+            <h3 class="p-title">शिक्षा</h3>
+            <p class="p-desc">हर बच्चे को गुणवत्तापूर्ण शिक्षा — स्कूल से डिजिटल लर्निंग तक।</p>
+            <ul class="p-list">
+              <li>3 स्मार्ट क्लासरूम</li>
+              <li>500+ छात्रवृत्तियाँ</li>
+              <li>डिजिटल लाइब्रेरी</li>
+            </ul>
+            <div class="p-progress">
+              <div class="p-prog-label">1,200 छात्र लाभान्वित</div>
+              <div class="p-bar"><div class="p-fill" data-w="80"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pillar-card featured reveal" id="pc2">
+          <div class="feat-badge">प्रमुख</div>
+          <div class="pillar-img-wrap">
+            <img src="road.png" alt="सड़क निर्माण" class="pillar-img" />
+            <div class="pillar-img-overlay">
+              <span class="pi-emoji">🛣️</span>
+            </div>
+          </div>
+          <div class="pillar-body">
+            <div class="p-num">02</div>
+            <h3 class="p-title">सड़क</h3>
+            <p class="p-desc">18 km पक्की सड़क — हर गाँव को मुख्य मार्ग से जोड़ा।</p>
+            <ul class="p-list">
+              <li>18 km पक्की सड़क</li>
+              <li>6 पुल निर्मित</li>
+              <li>LED स्ट्रीट लाइट</li>
+            </ul>
+            <div class="p-progress">
+              <div class="p-prog-label">42 गाँव कनेक्टेड</div>
+              <div class="p-bar"><div class="p-fill" data-w="95"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pillar-card reveal" id="pc3">
+          <div class="pillar-img-wrap">
+            <img src="panchayat.png" alt="पंचायत" class="pillar-img" />
+            <div class="pillar-img-overlay">
+              <span class="pi-emoji">🏛️</span>
+            </div>
+          </div>
+          <div class="pillar-body">
+            <div class="p-num">03</div>
+            <h3 class="p-title">पंचायत</h3>
+            <p class="p-desc">पारदर्शी शासन — ग्राम सभाएं, बजट सार्वजनिक।</p>
+            <ul class="p-list">
+              <li>मासिक ग्राम सभा</li>
+              <li>ऑनलाइन शिकायत</li>
+              <li>बजट सार्वजनिक</li>
+            </ul>
+            <div class="p-progress">
+              <div class="p-prog-label">100% पारदर्शिता</div>
+              <div class="p-bar"><div class="p-fill" data-w="88"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pillar-card reveal" id="pc4">
+          <div class="pillar-img-wrap">
+            <img src="digital.png" alt="डिजिटल सेवाएं" class="pillar-img" />
+            <div class="pillar-img-overlay">
+              <span class="pi-emoji">📱</span>
+            </div>
+          </div>
+          <div class="pillar-body">
+            <div class="p-num">04</div>
+            <h3 class="p-title">डिजिटल पहचान</h3>
+            <p class="p-desc">हर नागरिक की डिजिटल पहचान — आधार, UPI और सरकारी सेवाएं।</p>
+            <ul class="p-list">
+              <li>5 WiFi हॉटस्पॉट</li>
+              <li>CSC सेंटर सक्रिय</li>
+              <li>2,400+ डिजिटल ID</li>
+            </ul>
+            <div class="p-progress">
+              <div class="p-prog-label">2,400 डिजिटल नागरिक</div>
+              <div class="p-bar"><div class="p-fill" data-w="68"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ IMPACT ░░ -->
+  <section class="impact section" id="impact">
+    <div class="impact-bg-img">
+      <img src="kisan.png" alt="" aria-hidden="true" />
+    </div>
+    <div class="impact-dark-overlay"></div>
+    <div class="container">
+      <div class="section-tag center" style="background:rgba(255,255,255,0.12);border-color:rgba(255,255,255,0.3);color:#fff;">हमारी उपलब्धि</div>
+      <h2 class="section-h2 center" style="color:#fff;">जो बदला, <em style="-webkit-text-fill-color:#FFB300;color:#FFB300;">दिखता है।</em></h2>
+      <div class="impact-grid">
+        <div class="impact-box reveal" id="ib1">
+          <div class="ib-icon">🏘️</div>
+          <div class="ib-wrap">
+            <span class="ib-num" data-target="42">0</span><span class="ib-plus">+</span>
+          </div>
+          <div class="ib-label">गाँव</div>
+        </div>
+        <div class="impact-box reveal" id="ib2">
+          <div class="ib-icon">👨‍👩‍👧‍👦</div>
+          <div class="ib-wrap">
+            <span class="ib-num" data-target="12000">0</span><span class="ib-plus">+</span>
+          </div>
+          <div class="ib-label">नागरिक लाभान्वित</div>
+        </div>
+        <div class="impact-box reveal" id="ib3">
+          <div class="ib-icon">🛣️</div>
+          <div class="ib-wrap">
+            <span class="ib-num" data-target="18">0</span><span class="ib-plus"> km</span>
+          </div>
+          <div class="ib-label">सड़क निर्मित</div>
+        </div>
+        <div class="impact-box reveal" id="ib4">
+          <div class="ib-icon">🌾</div>
+          <div class="ib-wrap">
+            <span class="ib-num" data-target="850">0</span><span class="ib-plus">+</span>
+          </div>
+          <div class="ib-label">किसान लाभान्वित</div>
+        </div>
+        <div class="impact-box reveal" id="ib5">
+          <div class="ib-icon">🎓</div>
+          <div class="ib-wrap">
+            <span class="ib-num" data-target="1200">0</span><span class="ib-plus">+</span>
+          </div>
+          <div class="ib-label">छात्रवृत्ति</div>
+        </div>
+        <div class="impact-box reveal" id="ib6">
+          <div class="ib-icon">📱</div>
+          <div class="ib-wrap">
+            <span class="ib-num" data-target="2400">0</span><span class="ib-plus">+</span>
+          </div>
+          <div class="ib-label">डिजिटल नागरिक</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ STORIES ░░ -->
+  <section class="stories section" id="stories">
+    <div class="container">
+      <div class="section-tag center">सफलता की कहानियाँ</div>
+      <h2 class="section-h2 center">उनकी जुबानी, <em>उनकी कहानी</em></h2>
+      <p class="section-sub center">हर संख्या के पीछे एक असली इंसान है।</p>
+      <div class="carousel" id="carousel">
+        <div class="c-slide active" id="cs0">
+          <div class="c-img-side">
+            <img src="kisan.png" alt="रामदीन पटेल" class="c-story-img" />
+          </div>
+          <div class="c-text-side">
+            <div class="c-bigquote">"</div>
+            <p class="c-para">पहले हमारे खेत तक पानी नहीं पहुँचता था। विकास दूत जी ने ड्रिप सिंचाई लगवाई — इस साल हमारी फसल दोगुनी हो गई। सच में जिंदगी बदल गई।</p>
+            <div class="c-auth">
+              <div class="c-av" style="background:linear-gradient(135deg,#1B5E20,#43A047)">र</div>
+              <div>
+                <div class="c-name">रामदीन पटेल</div>
+                <div class="c-loc">🌾 किसान · सूर्यपुरा गाँव</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="c-slide" id="cs1">
+          <div class="c-img-side">
+            <img src="school.png" alt="कविता देवी" class="c-story-img" />
+          </div>
+          <div class="c-text-side">
+            <div class="c-bigquote">"</div>
+            <p class="c-para">मैंने 8वीं के बाद पढ़ाई छोड़ दी थी। पर छात्रवृत्ति और स्मार्ट क्लास से मैंने 12वीं पास की — अब मैं नर्स बनना चाहती हूँ।</p>
+            <div class="c-auth">
+              <div class="c-av" style="background:linear-gradient(135deg,#FF6F00,#FFB300)">क</div>
+              <div>
+                <div class="c-name">कविता देवी</div>
+                <div class="c-loc">🎓 छात्रा · सूर्यपुरा स्कूल</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="c-slide" id="cs2">
+          <div class="c-img-side">
+            <img src="digital.png" alt="सुनीता बाई" class="c-story-img" />
+          </div>
+          <div class="c-text-side">
+            <div class="c-bigquote">"</div>
+            <p class="c-para">CSC सेंटर खुला तो मैंने पहली बार अपना आधार और बैंक खाता खुद से लिंक किया। अब मैं दूसरी महिलाओं को सिखाती हूँ।</p>
+            <div class="c-auth">
+              <div class="c-av" style="background:linear-gradient(135deg,#1565C0,#0D1B2A)">स</div>
+              <div>
+                <div class="c-name">सुनीता बाई</div>
+                <div class="c-loc">📱 डिजिटल दीदी · नई बस्ती</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-dots" id="cDots">
+        <button class="c-dot active" data-idx="0" aria-label="कहानी 1"></button>
+        <button class="c-dot" data-idx="1" aria-label="कहानी 2"></button>
+        <button class="c-dot" data-idx="2" aria-label="कहानी 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SOCIAL POSTS ░░ -->
+  <section class="social section" id="social">
+    <div class="container">
+      <div class="section-tag center">सोशल मीडिया</div>
+      <h2 class="section-h2 center">बदलाव <em>फैलाएं</em></h2>
+      <p class="section-sub center">अपने गाँव की प्रगति दुनिया को दिखाएं।</p>
+      <div class="posts-grid">
+
+        <!-- POST 1 -->
+        <div class="post reveal" id="post1">
+          <div class="post-top">
+            <div class="post-user">
+              <div class="post-av">SG</div>
+              <div>
+                <div class="post-handle">@SuryapuraVikas</div>
+                <div class="post-time">2 घंटे पहले · Instagram</div>
+              </div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#E1306C"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </div>
+          <div class="post-visual-img">
+            <img src="kisan.png" alt="किसान पोस्ट" class="post-bg-img" />
+            <div class="post-img-overlay">
+              <div class="poi-main">हर खेत तक पानी</div>
+              <div class="poi-sub">हर घर तक रोशनी</div>
+              <div class="poi-brand">— सूर्यपुरा ग्राम विकास</div>
+            </div>
+          </div>
+          <div class="post-foot">
+            <div class="post-tags">#ग्रामोदय #किसान #सूर्यपुरा</div>
+            <div class="post-acts">
+              <button class="pact" id="l1" aria-label="Like">❤️ <span id="l1c">1.8K</span></button>
+              <button class="pact" id="s1" aria-label="Share">↗ <span>Share</span></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- POST 2 -->
+        <div class="post reveal" id="post2">
+          <div class="post-top">
+            <div class="post-user">
+              <div class="post-av">SG</div>
+              <div>
+                <div class="post-handle">@SuryapuraVikas</div>
+                <div class="post-time">कल · Facebook</div>
+              </div>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#1877F2"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </div>
+          <div class="post-visual-img">
+            <img src="panchayat.png" alt="पंचायत पोस्ट" class="post-bg-img" />
+            <div class="post-img-overlay pov2">
+              <div class="poi-qmark">"</div>
+              <div class="poi-quote">जो गाँव को समझे,<br/>वही असली <strong>नेता है।</strong></div>
+              <div class="poi-attr">— विकास दूत, सूर्यपुरा</div>
+            </div>
+          </div>
+          <div class="post-foot">
+            <div class="post-tags">#विकासदूत #ग्रामविकास #जनसेवा</div>
+            <div class="post-acts">
+              <button class="pact" id="l2" aria-label="Like">❤️ <span id="l2c">3.2K</span></button>
+              <button class="pact" id="s2" aria-label="Share">↗ <span>Share</span></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ JOIN ░░ -->
+  <section class="join section" id="join">
+    <div class="container join-wrap">
+      <div class="join-left reveal">
+        <div class="section-tag">विकास दूत बनें</div>
+        <h2 class="section-h2">आपका गाँव आपका<br/><em>इंतज़ार कर रहा है।</em></h2>
+        <p class="body-p">350+ विकास दूत पहले से काम कर रहे हैं। आप भी जुड़ें — अपने गाँव की आवाज़ बनें।</p>
+        <div class="join-perks">
+          <div class="jp">✅ निःशुल्क प्रशिक्षण</div>
+          <div class="jp">✅ सरकारी योजनाओं की जानकारी</div>
+          <div class="jp">✅ पंचायत से सीधा संपर्क</div>
+          <div class="jp">✅ डिजिटल पहचान पत्र</div>
+        </div>
+        <!-- Kisan image decoration -->
+        <div class="join-img-wrap">
+          <img src="road.png" alt="सड़क विकास" class="join-deco-img" />
+          <div class="join-img-label">18 km नई सड़क — सूर्यपुरा</div>
+        </div>
+      </div>
+      <form class="join-form reveal" id="joinForm" novalidate>
+        <h3 class="form-heading">अभी पंजीकरण करें</h3>
+        <div class="frow">
+          <div class="ffield">
+            <label for="jName">पूरा नाम <span class="req">*</span></label>
+            <input type="text" id="jName" placeholder="राम प्रसाद यादव" required />
+          </div>
+          <div class="ffield">
+            <label for="jPhone">मोबाइल <span class="req">*</span></label>
+            <input type="tel" id="jPhone" placeholder="9000000000" required />
+          </div>
+        </div>
+        <div class="frow">
+          <div class="ffield">
+            <label for="jVillage">गाँव का नाम</label>
+            <input type="text" id="jVillage" placeholder="आपका गाँव" />
+          </div>
+          <div class="ffield">
+            <label for="jRole">आप क्या हैं? <span class="req">*</span></label>
+            <select id="jRole" required>
+              <option value="" disabled selected>चुनें…</option>
+              <option>किसान</option>
+              <option>शिक्षक</option>
+              <option>युवा / छात्र</option>
+              <option>महिला स्वयं सहायता</option>
+              <option>पंचायत सदस्य</option>
+              <option>अन्य</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn-submit" id="joinBtn">
+          विकास दूत बनें →
+        </button>
+        <p class="form-note">* आपकी जानकारी सुरक्षित है। स्पैम नहीं होगा।</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="ft-brand">
+          <div class="ft-logo">
+            <svg width="26" height="26" viewBox="0 0 38 38" fill="none">
+              <circle cx="19" cy="19" r="8" fill="#FF6F00"/>
+              <g stroke="#FF6F00" stroke-width="2" stroke-linecap="round">
+                <line x1="19" y1="1" x2="19" y2="8"/>
+                <line x1="19" y1="30" x2="19" y2="37"/>
+                <line x1="1" y1="19" x2="8" y2="19"/>
+                <line x1="30" y1="19" x2="37" y2="19"/>
+              </g>
+            </svg>
+            <span>सूर्यपुरा ग्राम विकास</span>
+          </div>
+          <p class="ft-desc">गाँव का विकास, शिक्षा, किसान, सड़क, पंचायत और डिजिटल पहचान — एक मंच पर।</p>
+          <div class="ft-socials">
+            <a href="#" class="ftsoc" id="fts1">f</a>
+            <a href="#" class="ftsoc" id="fts2">w</a>
+            <a href="#" class="ftsoc" id="fts3">yt</a>
+            <a href="#" class="ftsoc" id="fts4">tw</a>
+          </div>
+        </div>
+        <div class="ft-col">
+          <h4>योजनाएं</h4>
+          <a href="#">शिक्षा</a>
+          <a href="#">किसान सहायता</a>
+          <a href="#">सड़क निर्माण</a>
+          <a href="#">डिजिटल सेवाएं</a>
+        </div>
+        <div class="ft-col">
+          <h4>पंचायत</h4>
+          <a href="#">ग्राम सभा</a>
+          <a href="#">बजट रिपोर्ट</a>
+          <a href="#">शिकायत दर्ज</a>
+          <a href="#">सदस्य सूची</a>
+        </div>
+        <div class="ft-col">
+          <h4>जुड़ें</h4>
+          <a href="#join">विकास दूत बनें</a>
+          <a href="#">स्वयंसेवक</a>
+          <a href="#">दान करें</a>
+          <a href="#">संपर्क</a>
+        </div>
+      </div>
+    </div>
+    <div class="tricolor-bar">
+      <span></span><span></span><span></span>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2024 सूर्यपुरा ग्राम विकास पोर्टल · जय हिन्द 🇮🇳</span>
+      <span>❤️ से बनाया — बेहतर कल के लिए</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
